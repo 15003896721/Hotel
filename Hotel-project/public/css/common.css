@@ -1,0 +1,76 @@
+*{margin:0;padding:0;font-family: "宋体";}
+/*container-fluid的背景渐变色*/
+.my_bg_lg{background:linear-gradient(to bottom,#47dcc9 0%,#fde2e2 30%,#fde2e2 100%) !important;}
+.big_title{font-size: 4rem;}
+/*导航栏*/
+.my_bg{background:rgb(71,220,201);}
+/*导航栏字体样式*/
+.my_font_nav{
+    color:gray;
+    font-size:2rem;
+    font-family: "宋体" !important;
+}
+
+/*最大字体*/
+.my_font_lg{
+    font-size:4rem;
+    font-family: "宋体" !important;
+}
+/*最小字体*/
+.my_font_sm{font-size: 8px !important;}
+.pro{margin:0 auto;}
+/*通用字体样式*/
+.my_font{
+    font-size:1.5rem;
+    font-family: "宋体" !important;}
+.w-1920{width: 100%;}
+.my_font_color{color: #47dcc9;}
+p{
+    font-family: "宋体" !important;
+    font-weight: bolder !important;
+}
+/*============footer底部*===========/
+/*footer的背景色*/
+.my_bg_footer{background:#333 !important;}
+/*footer的字体*/
+footer h4,footer td{font-weight: bolder;color:rgba(245,245,245,0.5);font-family: "宋体";}
+footer h4{text-align: left;color: #fff;}
+/*footer里的a标签清除下划线*/
+footer a{text-decoration: none;}
+/*鼠标经过footer里的a标签时清除下划线*/
+footer a:hover{text-decoration: none;}
+/*初始i的背景色设置*/
+.footer_logo a i.icon{  background: #777 url(../image/icon.png) no-repeat 0px 0px;}
+.footer_logo a i.icon1{  background: #777 url(../image/icon1.png) no-repeat 0px 0px;}
+.footer_logo a i.icon2{  background: #777 url(../image/icon2.png) no-repeat 0px 0px;}
+.footer_logo a i.icon3{  background: #777 url(../image/icon3.png) no-repeat 0px 0px;}
+/*鼠标经过i时沿Y轴旋转360deg*/
+.social-icons i.icon:hover,
+.social-icons i.icon1:hover,
+.social-icons i.icon2:hover,
+.social-icons i.icon3:hover {
+    transform: rotateY(360deg);
+}
+/*鼠标经过i时设置背景色*/
+.social-icons i.icon:hover{ background: #00AD8A url(../image/icon.png) no-repeat 0px 0px;}
+.social-icons i.icon1:hover{ background: #00AD8A url(../image/icon1.png) no-repeat 0px 0px;}
+.social-icons i.icon2:hover{ background: #00AD8A url(../image/icon2.png) no-repeat 0px 0px;}
+.social-icons i.icon3:hover{ background: #00AD8A url(../image/icon3.png) no-repeat 0px 0px;}
+/*版权下的i背景定位*/
+.footer_logo i {background-position: 0px 0px;  }
+/*设置i的大小以及动画*/
+.footer_logo a i {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin: 0 0.2em;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+/*底部版权的背景色*/
+.copy-section {background: #000;  }
+/*为social-icons设置上外边距*/
+.social-icons { margin-top: 1em;  }
